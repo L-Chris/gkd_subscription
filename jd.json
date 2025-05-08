@@ -1,0 +1,35 @@
+[{
+        "key": 15,
+        "name": "功能类-弹窗[京东推荐 先享后付]",
+        "desc": "点击[放弃特权]",
+        "rules": [{
+            "matches": [
+                "[id=\"com.jd.lib.jdpaysdk.feature:id/ah7\"] << TextView[text=\"放弃特权\"][visibleToUser=true]"
+            ],
+            "fastQuery": true,
+            "snapshotUrls": [
+                "https://i.gkd.li/i/20102672"
+            ],
+            "activityIds": [
+                "com.jingdong.manto.card.MantoLightActivity"
+            ]
+        }]
+    },
+    {
+        "key": 6,
+        "name": "功能类-弹窗[您已到达停车点（P点）]",
+        "desc": "点击[确认还车]",
+        "rules": [{
+            "matches": [
+                "[vid=\"a0k\"] << TextView[text=\"确认还车\"][visibleToUser=true]"
+            ],
+            "fastQuery": true,
+            "snapshotUrls": [
+                "https://i.gkd.li/i/20102668"
+            ],
+            "activityIds": [
+                ".bundle.cashierfinish.view.CashierUserContentCompleteActivity"
+            ]
+        }]
+    }
+]

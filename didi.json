@@ -1,0 +1,35 @@
+[{
+        "key": 5,
+        "name": "功能类-弹窗[您刚刚骑行的车辆有故障吗？]",
+        "desc": "点击[无故障]",
+        "rules": [{
+            "matches": [
+                "[vid=\"touch_intercept_fl\"] << TextView[text=\"无故障\"][visibleToUser=true]"
+            ],
+            "fastQuery": true,
+            "snapshotUrls": [
+                "https://i.gkd.li/i/20099132"
+            ],
+            "activityIds": [
+                "com.didi.ride.dimina.DMActivity"
+            ]
+        }]
+    },
+    {
+        "key": 6,
+        "name": "功能类-弹窗[您已到达停车点（P点）]",
+        "desc": "点击[确认还车]",
+        "rules": [{
+            "matches": [
+                "[vid=\"touch_intercept_fl\"] << TextView[text=\"确认还车\"][visibleToUser=true]"
+            ],
+            "fastQuery": true,
+            "snapshotUrls": [
+                "https://i.gkd.li/i/20102665"
+            ],
+            "activityIds": [
+                "com.didi.ride.dimina.DMActivity"
+            ]
+        }]
+    }
+]
